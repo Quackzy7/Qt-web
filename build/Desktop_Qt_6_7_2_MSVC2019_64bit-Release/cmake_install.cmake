@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/untitled.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/myapp.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

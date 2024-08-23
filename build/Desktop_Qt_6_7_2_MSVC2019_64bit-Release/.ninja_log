@@ -1,21 +1,9 @@
 # ninja log v5
-5	196	7461326172336769	untitled_autogen/timestamp	14e4b7db421f30b7
-5	196	7461326172336769	untitled_autogen/mocs_compilation.cpp	14e4b7db421f30b7
-5	196	7461326172336769	C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/untitled_autogen/timestamp	14e4b7db421f30b7
-5	196	7461326172336769	C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/untitled_autogen/mocs_compilation.cpp	14e4b7db421f30b7
-198	1044	7461326181128755	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	34f8b02ae6705ac2
-201	1050	7461326181201709	CMakeFiles/untitled.dir/main.cpp.obj	575557405a2c8f62
-203	1106	7461326181753836	CMakeFiles/untitled.dir/mainwindow.cpp.obj	69e8a59800052864
-1106	1173	7461326182362135	untitled.exe	3066640b06443b60
-17	112	7461328163996850	untitled_autogen/timestamp	14e4b7db421f30b7
-17	112	7461328163996850	untitled_autogen/mocs_compilation.cpp	14e4b7db421f30b7
-17	112	7461328163996850	C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/untitled_autogen/timestamp	14e4b7db421f30b7
-17	112	7461328163996850	C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/untitled_autogen/mocs_compilation.cpp	14e4b7db421f30b7
-118	985	7461328174244863	CMakeFiles/untitled.dir/mainwindow.cpp.obj	69e8a59800052864
-985	1052	7461328174848630	untitled.exe	3066640b06443b60
 8	92	7461328714419303	untitled_autogen/timestamp	14e4b7db421f30b7
+198	1044	7461326181128755	CMakeFiles/untitled.dir/untitled_autogen/mocs_compilation.cpp.obj	34f8b02ae6705ac2
 8	92	7461328714419303	untitled_autogen/mocs_compilation.cpp	14e4b7db421f30b7
 8	92	7461328714419303	C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/untitled_autogen/timestamp	14e4b7db421f30b7
 8	92	7461328714419303	C:/Users/aDMIN/Desktop/mybrow/myapp/untitled/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Release/untitled_autogen/mocs_compilation.cpp	14e4b7db421f30b7
 97	993	7461328903565177	CMakeFiles/untitled.dir/mainwindow.cpp.obj	69e8a59800052864
+201	1050	7461326181201709	CMakeFiles/untitled.dir/main.cpp.obj	575557405a2c8f62
 993	1059	7461328904167750	untitled.exe	3066640b06443b60
