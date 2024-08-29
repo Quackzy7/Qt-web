@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QWebEngineView>
+#include "history.h" // Include your History class
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,9 +21,12 @@ public:
 
 private:
     Ui::MainWindow *ui;
-
+    History history;
+ QStringList historyList;    // History object to manage browsing history
 
 private slots:
     void onUrlEntered();
+    void onHistoryButtonClicked(); // Slot for history button
 };
+
 #endif // MAINWINDOW_H

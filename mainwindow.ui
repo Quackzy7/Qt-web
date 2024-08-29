@@ -32,9 +32,9 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="histroy">
+       <widget class="QPushButton" name="historyButton">
         <property name="text">
-         <string>PushButton</string>
+         <string>check history</string>
         </property>
        </widget>
       </item>

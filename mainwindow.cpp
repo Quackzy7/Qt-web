@@ -1,8 +1,6 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include <QWebEngineView>
-#include <QPushButton>
-
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -13,6 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     // Access UI elements
     QPushButton *backButton = ui->backButton;
     QPushButton *forwardButton = ui->forwardButton;
+    QPushButton *historyButton = ui->historyButton;  // Access the history button
     QWebEngineView *webView = ui->webEngineView;
 
     // Load a default webpage
@@ -25,8 +24,9 @@ MainWindow::MainWindow(QWidget *parent)
     // Connect the returnPressed signal of the QLineEdit to the slot
     connect(ui->lineEdit, &QLineEdit::returnPressed, this, &MainWindow::onUrlEntered);
 
+    // Connect the history button to the history slot
+    connect(historyButton, &QPushButton::clicked, this, &MainWindow::onHistoryButtonClicked);
 }
-
 
 MainWindow::~MainWindow()
 {
@@ -45,5 +45,14 @@ void MainWindow::onUrlEntered()
 
     QUrl url = QUrl::fromUserInput(urlText);
     ui->webEngineView->setUrl(url);
+
+    // Add the URL to history
+    historyList.append(url.toString());
 }
 
+void MainWindow::onHistoryButtonClicked()
+{
+    // Display the history in a message box
+    QString historyText = historyList.join("\n");
+    QMessageBox::information(this, "Browsing History", historyText);
+}
